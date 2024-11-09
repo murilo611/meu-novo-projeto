@@ -1,7 +1,7 @@
 {
   "name": "meu-novo-projeto",
   "version": "0.1.0",
-  "homepage": "https://github.com/murilo611/React-Invest",
+  "homepage": "https://murilo611.github.io/React-Invest",
   "private": true,
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
