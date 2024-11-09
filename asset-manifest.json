@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/murilo611/React-Invest/static/css/main.d8ecfc9a.css",
+    "main.js": "/murilo611/React-Invest/static/js/main.24150a41.js",
+    "index.html": "/murilo611/React-Invest/index.html",
+    "main.d8ecfc9a.css.map": "/murilo611/React-Invest/static/css/main.d8ecfc9a.css.map",
+    "main.24150a41.js.map": "/murilo611/React-Invest/static/js/main.24150a41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8ecfc9a.css",
+    "static/js/main.24150a41.js"
+  ]
+}
