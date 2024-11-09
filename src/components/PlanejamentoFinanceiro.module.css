@@ -1,0 +1,109 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Configuração geral de página */
+html, body {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(135deg, #0d0d0d, #19a760);
+  color: #f7f2f2;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Container que ocupa toda a tela */
+.fullScreenContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+/* Container principal para centralização */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 60px;
+  flex-grow: 1;
+}
+
+/* Título principal */
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #eef0ee;
+  margin-bottom: 20px;
+}
+
+/* Subtítulo */
+.subtitle {
+  font-size: 1.2rem;
+  color: #fdf7f7;
+  margin-bottom: 40px;
+}
+
+/* Seções de conteúdo principais */
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 20px;
+}
+
+/* Estilização de cada seção */
+.section {
+  background-color: #2d302d;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.section:hover {
+  transform: scale(1.05);
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #070707;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  color: #080808;
+}
+
+/* Layout responsivo para telas maiores */
+@media (min-width: 768px) {
+  .sections {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .section {
+    flex: 1;
+    max-width: 250px;
+  }
+}
+
+/* Estilização do footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  margin-top: 20px;
+}
