@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/React-Invest/static/css/main.d8ecfc9a.css",
-    "main.js": "/React-Invest/static/js/main.24150a41.js",
-    "index.html": "/React-Invest/index.html",
-    "main.d8ecfc9a.css.map": "/React-Invest/static/css/main.d8ecfc9a.css.map",
-    "main.24150a41.js.map": "/React-Invest/static/js/main.24150a41.js.map"
+    "main.css": "/meu-novo-projeto/static/css/main.d8ecfc9a.css",
+    "main.js": "/meu-novo-projeto/static/js/main.24150a41.js",
+    "index.html": "/meu-novo-projeto/index.html",
+    "main.d8ecfc9a.css.map": "/meu-novo-projeto/static/css/main.d8ecfc9a.css.map",
+    "main.24150a41.js.map": "/meu-novo-projeto/static/js/main.24150a41.js.map"
   },
   "entrypoints": [
     "static/css/main.d8ecfc9a.css",
