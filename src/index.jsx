@@ -1,13 +1,14 @@
-// src/index.js
+// src/index.js ou src/index.jsx
 
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App'; // Verifique se é importado corretamente
+import ReactDOM from 'react-dom/client';  // Para criar o root da aplicação
+import './index.css'; // Arquivo de estilos
+import App from './App'; // Importa o componente principal da sua aplicação
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// Cria o root e renderiza o componente 'App' dentro do div com id "root"
+const root = ReactDOM.createRoot(document.getElementById('root')); 
 root.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
